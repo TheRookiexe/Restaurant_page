@@ -12,7 +12,7 @@ module.exports = {
     devServer: {
         watchFiles: ["./src/template.html"],
     },
-    Plugins: [
+    plugins: [
         new HtmlWebpackPlugin({
             template: "./src/template.html",
         }),
@@ -20,7 +20,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css/i,
+                test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
             },
             {
@@ -30,7 +30,7 @@ module.exports = {
             {
                 test: /\.(png|svg|jpeg|jpg)$/i,
                 type: "asset/resource",
-            }
+            },
         ],
     },
 };
