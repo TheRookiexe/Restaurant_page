@@ -16,3 +16,4 @@ function showPage(pageFn){
 loadPg()
 home.addEventListener('click', ()=>showPage(loadPg));
 menu.addEventListener('click', ()=>showPage(menuPg));
+about.addEventListener('click', ()=>showPage(aboutPg));
