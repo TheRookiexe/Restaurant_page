@@ -4,6 +4,7 @@ import { menuPg } from "./components/menu-page.js";
 
 const home = document.getElementById('hm');
 const menu = document.getElementById('mnu');
+const about = document.getElementById('abt');
 console.log("test");
 
 function showPage(pageFn){
