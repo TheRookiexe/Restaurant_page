@@ -6,6 +6,11 @@ const home = document.getElementById('hm');
 const menu = document.getElementById('mnu');
 console.log("test");
 
+function showPage(pageFn){
+    content.replaceChildren();
+    pageFn();
+}
+
 loadPg()
-home.addEventListener('click', loadPg);
-menu.addEventListener('click', menuPg);
+home.addEventListener('click', ()=>showPage(loadPg));
+menu.addEventListener('click', ()=>showPage(menuPg));

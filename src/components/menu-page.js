@@ -4,6 +4,7 @@ function menuPg(){
     const menuHeader = document.createElement('div');
     menuHeader.classList.add('munHdDiv');
     menuHeader.textContent = "Menu";
+    contentDiv.appendChild(menuHeader);
 
 }
 
