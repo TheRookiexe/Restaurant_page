@@ -18,11 +18,13 @@ header {
     justify-content: center;
     box-shadow: 4px 4px 8px rgb(50, 51, 51);
 }
+
 #navBar {
     display: flex;
     justify-content: space-around;
     gap: 70px;
 }
+
 button {
     height: 50px;
     width: 100px;
@@ -35,3 +37,36 @@ button {
     box-shadow: 2px 2px 4px rgb(54, 52, 52);
 }
 
+#content {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hmImg {
+    height: 500px;
+    width: 900px;
+    border-radius: 15px;
+}
+
+.promoText {
+    white-space: pre-line;
+    font-size: 25px;
+    width: 900px;
+    text-align: center;
+
+}
+
+.promoText::first-line {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #021624;   
+}
