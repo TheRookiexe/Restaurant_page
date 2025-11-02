@@ -70,3 +70,18 @@ button {
   font-size: 1.3em;
   color: #021624;   
 }
+
+.munHdDiv {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.list {
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
