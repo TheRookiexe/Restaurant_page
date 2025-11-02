@@ -1,4 +1,4 @@
-import resimg from "./assets/rest.jpg";
+import resimg from "../assets/rest.jpg";
 
 const divContainer = document.getElementById('content');
 
