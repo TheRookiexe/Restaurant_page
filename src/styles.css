@@ -71,7 +71,7 @@ button {
   color: #021624;   
 }
 
-.munHdDiv {
+.munHdDiv, .abthdDiv{
     font-weight: bold;
     font-size: 45px;
 }
@@ -84,4 +84,16 @@ button {
 .title {
     font-weight: bold;
     font-size: 25px;
+}
+
+.textDiv {
+    white-space: pre-line;
+    width: 1700px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.textDiv::first-line {
+    font-weight: bold;
+    font-size: 30px;
 }
